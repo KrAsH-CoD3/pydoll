@@ -405,7 +405,7 @@ new Promise((resolve) => {{
         const text = arguments[0];
 
         // Standard input/textarea
-        if (el.tagName === 'INPUT' || el.tagName === 'TEXTAREA') {    
+        if (el.tagName === 'INPUT' || el.tagName === 'TEXTAREA') {
             el.focus();
             let start = el.selectionStart;
             let end = el.selectionEnd;
